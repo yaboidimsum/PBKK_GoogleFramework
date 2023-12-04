@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex h-screen items-center justify-center bg-gray-100">
+    <div class="rounded bg-white p-8 shadow-md w-[30rem]">
+      <form method="post" action="" name="contact-form">
+        <h4 class="mb-4 text-2xl font-bold">Registration</h4>
+        <div class="mb-4">
+          <input
+            type="text"
+            name="Name"
+            placeholder="Name"
+            class="w-full rounded border border-gray-300 p-2"
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            type="email"
+            name="Email"
+            placeholder="Email"
+            class="w-full rounded border border-gray-300 p-2"
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            type="text"
+            name="Gender"
+            placeholder="Gender"
+            class="w-full rounded border border-gray-300 p-2"
+          />
+        </div>
+        <div class="mb-4">
+          <textarea
+            name="Address"
+            rows="7"
+            placeholder="Address"
+            class="w-full rounded border border-gray-300 p-2"
+          ></textarea>
+        </div>
+        <div>
+          <input
+            type="submit"
+            value="Submit"
+            id="submit"
+            class="w-full cursor-pointer rounded bg-blue-500 p-2 text-white"
+          />
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
